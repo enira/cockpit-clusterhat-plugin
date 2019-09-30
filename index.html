@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html><head>
+    <title>Cluster HAT management</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../base1/patternfly.css" type="text/css" rel="stylesheet">
+    <link href="clusterhat.css" type="text/css" rel="stylesheet" id="term-style">
+    <script src="../base1/jquery.js"></script>
+    <script src="../base1/cockpit.js"></script>
+    <script src="clusterhat.js"></script>
+</head>
+<body hidden="" style="display: block;">
+
+  <div id="containers" hidden="" style="display: block;">
+    <div class="container-fluid page-ct">
+      <div id="containers-images">
+        <div>
+          <table class="listing listing-ct listing-ct-wide">
+            <caption class="cockpit-caption">Cluster HAT Control</caption>
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Device</th>
+                <th>IP Address</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="pilist">
+              <tr class="listing-ct-item">
+                <th><span class="green">Online</span></th>
+                <td>Controller</td>
+                <td id="controller_ip">127.0.0.1</td>
+                <td class="listing-ct-actions">
+                      <button class="btn btn-default btn-control-ct fa fa-eye" id="leds_on"></button>
+                      <button class="btn btn-default btn-control-ct fa fa-eye-slash" id="leds_off"></button>
+                 </td> 
+               </tr>
+             </tbody>
+           </table>
+         </div>
+       </div>
+    </div>
+  </div>
+</body></html>
