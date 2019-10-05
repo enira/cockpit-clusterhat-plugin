@@ -16,7 +16,6 @@ else
     mkdir /usr/share/cockpit/clusterhat
     wget https://raw.githubusercontent.com/enira/cockpit-clusterhat-plugin/master/manifest.json -O /usr/share/cockpit/clusterhat/manifest.json
     wget https://raw.githubusercontent.com/enira/cockpit-clusterhat-plugin/master/clusterhat.js -O /usr/share/cockpit/clusterhat/clusterhat.js
-	wget https://raw.githubusercontent.com/enira/cockpit-clusterhat-plugin/master/index.html -O /usr/share/cockpit/clusterhat/index.html
-	wget https://raw.githubusercontent.com/enira/cockpit-clusterhat-plugin/master/clusterhat.css.gz -O /usr/share/cockpit/clusterhat/clusterhat.css.gz
-	      
+    wget https://raw.githubusercontent.com/enira/cockpit-clusterhat-plugin/master/index.html -O /usr/share/cockpit/clusterhat/index.html
+    wget https://raw.githubusercontent.com/enira/cockpit-clusterhat-plugin/master/clusterhat.css.gz -O /usr/share/cockpit/clusterhat/clusterhat.css.gz      
 fi

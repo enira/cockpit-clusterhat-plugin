@@ -7,9 +7,9 @@ This plugin is an extension to the [Cockpit Project](https://cockpit-project.org
 
 ## Cockpit Project
 As this is a Cockpit plugin, you will need that as well. (The automatic install script will check this.)
-
+WARNING: the package 'cockpit' installs the 'modemmanager' package which will destroy the booting of Raspberry Pi's from the clusterhat. When installing, use the following command to block the installation of modemmanager.
 ```
-sudo apt-get install cockpit
+sudo apt-get install cockpit modemmanager-
 ```
 
 # Installation
