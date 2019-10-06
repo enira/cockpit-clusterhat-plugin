@@ -13,6 +13,8 @@ This plugin is an extension to the [Cockpit Project](https://cockpit-project.org
 Compatible with the following images:
 
 - ClusterCTRL-2019-07-10-lite-4-CBRIDGE
+- ClusterCTRL-2019-07-10-lite-4-CNAT
+- ClusterCTRL-2019-07-10-lite-4-p[1-4]
 
 Download at: https://dist1.8086.net/clusterctrl/buster/
 
