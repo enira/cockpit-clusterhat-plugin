@@ -15,6 +15,7 @@ Compatible with the following images:
 - ClusterCTRL-2019-07-10-lite-4-CBRIDGE
 - ClusterCTRL-2019-07-10-lite-4-CNAT
 - ClusterCTRL-2019-07-10-lite-4-p[1-4]
+- SD cardless boot
 
 Download at: https://dist1.8086.net/clusterctrl/buster/
 
@@ -46,6 +47,7 @@ wget https://raw.githubusercontent.com/enira/cockpit-clusterhat-plugin/master/cl
 # Version 
 
 Version log:
+- 2: update for multiple IPs
 - 1: first release
 
 # License

@@ -1,6 +1,6 @@
 {
     "main": "index.html",
-    "version": "1",
+    "version": "2",
     "requires": {
 	"cockpit": "164"
     },
