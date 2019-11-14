@@ -153,7 +153,7 @@ cockpit.spawn(cmd_neighbor, { }).done(function(data) {
 					}
 				}
 				
-				var pi = "<tr class=\"listing-ct-item\"><th id=\"status_" + item[0] + "\">" + status + "</th>";
+				var pi = "<tr class=\"listing-ct-item\"><td id=\"status_" + item[0] + "\">" + status + "</td>";
 				pi = pi + "<td>"+ item[0]+ "</td><td id=\"ip_"+item[0]+"\">" + foundip + "</td>";
 				pi = pi + "<td class=\"listing-ct-actions\" id=\"button_"+item[0]+"\">"+btns+"</td></tr>";
 				

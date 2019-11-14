@@ -47,6 +47,7 @@ wget https://raw.githubusercontent.com/enira/cockpit-clusterhat-plugin/master/cl
 # Version 
 
 Version log:
+- 3: fix table
 - 2: update for multiple IPs
 - 1: first release
 

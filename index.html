@@ -14,9 +14,11 @@
   <div id="containers" hidden="" style="display: block;">
     <div class="container-fluid page-ct">
       <div id="containers-images">
-        <div>
-          <table class="listing listing-ct listing-ct-wide">
-            <caption class="cockpit-caption">Cluster HAT Control</caption>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+           <span>Cluster HAT Control</span>
+          </div>
+          <table class="table table-hover">
             <thead>
               <tr>
                 <th>Status</th>
@@ -27,7 +29,7 @@
             </thead>
             <tbody id="pilist">
               <tr class="listing-ct-item">
-                <th><span class="green">Online</span></th>
+                <td><span class="green">Online</span></td>
                 <td>Controller</td>
                 <td id="controller_ip">127.0.0.1</td>
                 <td class="listing-ct-actions">
